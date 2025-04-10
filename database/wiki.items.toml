@@ -1,0 +1,227 @@
+[Wiki.ItemsClassificationHierachy]
+description = """
+This the classification hierachy tree of "Item":
+Item
+├── Equipment (1)
+│   ├── HeadGear (7)
+│   │   ├── Coverings (14)
+│   │   ├── Hats (15)
+│   │   ├── Helms (16)
+│   │   └── Special (17)
+│   ├── TorsoGear (8)
+│   │   ├── UnderGarments (18)
+│   │   ├── MidLayers (19)
+│   │   ├── OuterWear (20)
+│   │   └── Special (21)
+│   ├── LegWear (9)
+│   │   ├── UnderGarments (22)
+│   │   ├── OuterLayers (23)
+│   │   └── Utility (24)
+│   ├── FootWear (10)
+│   │   ├── Basic (25)
+│   │   ├── Armored (26)
+│   │   └── Special (27)
+│   ├── HandGear (11)
+│   │   ├── Protective (28)
+│   │   ├── Utility (29)
+│   │   └── Special (30)
+│   ├── Accessories (12)
+│   └── Weapon (13)
+│       ├── OneHanded (31)
+│       ├── TwoHanded (32)
+│       ├── Shield (33)
+│       └── DualWield (34)
+├── Consumable (2)
+│   ├── Provision (35)
+│   ├── Potion (36)
+│   └── Scroll (37)
+├── Valuables (3)
+├── Text (4)
+├── Material (5)
+│   ├── Remain (38)
+│   ├── Mineral (39)
+│   └── Botanical (40)
+└── Miscellaneous (6)
+    ├── Container (41)
+    ├── Trap (42)
+    ├── Corpse (43)
+    ├── Decoration (44)
+    └── Other (45)
+"""
+
+[Wiki.ItemQualities]
+description = """Item's quality has 5 levels: Quality.IronWood (common), Quality.SilverVein (uncommon), \
+Quality.GoldLeaf (rare), Quality.DuskForged (exquisite), Quality.DawnBorn (legendary)."""
+
+[Wiki.Item]
+description = """
+The root category for all physical objects in this dark medieval fantasy world."""
+
+[Wiki.Item.Equipment]
+description = """
+Equipment encompasses all wearable items that serve essential functions—protection, utility, status display, \
+combat-purposes and mystical purposes. Includes armor, clothinf and weapons."""
+
+[Wiki.Item.Equipment.HeadGear]
+description = """
+Protective and decorative head coverings with various functions."""
+
+[Wiki.Item.Equipment.HeadGear.Coverings]
+description = """
+Basic head coverings made of cloth or light chainmail, typically worn by commoners or as under-layers for helmets."""
+
+[Wiki.Item.Equipment.HeadGear.Hats]
+description = """
+Structured headwear offering modest protection or social status indication, often worn by merchants or lower nobility."""
+
+[Wiki.Item.Equipment.HeadGear.Helms]
+description = """
+Protective metal helmets designed for combat."""
+
+[Wiki.Item.Equipment.HeadGear.Special]
+description = """
+Unique or magical headpieces often associated with specific professions, dark magic, or religious orders. \
+Ritualistic, mystical, or aberrant coverings beyond ordinary use."""
+
+[Wiki.Item.Equipment.TorsoGear]
+description = """
+Upper body garments and armor, balancing defense, utility, and social display, organized in layers \
+from undergarments to outer protective wear and special ceremonial pieces."""
+
+[Wiki.Item.Equipment.TorsoGear.UnderGarments]
+description = """
+Base layer clothing worn next to skin, providing comfort and sometimes light protection when armored."""
+
+[Wiki.Item.Equipment.TorsoGear.MidLayers]
+description = """
+Versatile garments for both daily wear and light protection, reinforced with studs or scales."""
+
+[Wiki.Item.Equipment.TorsoGear.OuterWear]
+description = """
+Public-facing attire for climate adaptation and social signaling, or protective outer garments like armor."""
+
+[Wiki.Item.Equipment.TorsoGear.Special]
+description = """
+Exceptional torso pieces bearing heraldry, enchantments, or made from unconventional materials."""
+
+[Wiki.Item.Equipment.LegWear]
+description = """
+Lower body garments and leg armor, including both practical everyday wear, \
+social norms and specialized protective equipment."""
+
+[Wiki.Item.Equipment.LegWear.UnderGarments]
+description = """
+Basic lower body undergarments providing modesty and comfort beneath armor or outer layers."""
+
+[Wiki.Item.Equipment.LegWear.OuterLayers]
+description = """
+Primary leg coverings or protection including leather and metal armor components for labor, travel, \
+and combat scenarios."""
+
+[Wiki.Item.Equipment.LegWear.Utility]
+description = """
+Specialized legwear designed for specific environments or non-combat activities."""
+
+[Wiki.Item.Equipment.FootWear]
+description = """
+Foot coverings ranging from basic peasant shoes to armored sabatons and magical footwear, serving \
+practical or symbolic purposes."""
+
+[Wiki.Item.Equipment.FootWear.Basic]
+description = """
+Common shoes for everyday movement and occupational needs, offering minimal protection."""
+
+[Wiki.Item.Equipment.FootWear.Armored]
+description = """
+Reinforced footwear designed for combat."""
+
+[Wiki.Item.Equipment.FootWear.Special]
+description = """
+Magical or biomechanical footwear with unusual properties or construction."""
+
+[Wiki.Item.Equipment.HandGear]
+description = """
+Hand and arm coverings combining protection, utility, and ornamentation. This includes Protective, \
+Utility and Special."""
+
+[Wiki.Item.Equipment.HandGear.Protective]
+description = """
+Defensive wear for combat or environmental hazards."""
+
+[Wiki.Item.Equipment.HandGear.Utility]
+description = """
+Specialized handwear designed for specific tasks like crafts and daily labor, archery or magical rituals."""
+
+[Wiki.Item.Equipment.HandGear.Special]
+description = """
+Unconventional or enchanted handwear often associated with dark magic or alchemical experiments. Esoteric \
+or unnatural hand coverings with unique traits."""
+
+[Wiki.Item.Equipment.Accessories]
+description = """Accessories includes jewelry, utility gears, mystical adornments, ceremonial items, status markers etc."""
+
+[Wiki.Item.Equipment.Weapon]
+description = """Instruments of violence."""
+
+[Wiki.Item.Equipment.Weapon.OneHanded]
+description = """Single-hand weapons for close-quarters brutality."""
+
+[Wiki.Item.Equipment.Weapon.TwoHanded]
+description = """Weapons requiring both hands."""
+
+[Wiki.Item.Equipment.Weapon.Shield]
+description = """Defensive implements that often become weapons themselves."""
+
+[Wiki.Item.Equipment.Weapon.DualWield]
+description = """Paired weapons designed for simultaneous use."""
+
+[Wiki.Item.Consumable]
+description = """Items that can be used up or depleted."""
+
+[Wiki.Item.Consumable.Provision]
+description = """Food and drink items for sustenance."""
+
+[Wiki.Item.Consumable.Potion]
+description = """Liquid concoctions with various effects."""
+
+[Wiki.Item.Consumable.Scroll]
+description = """Written magical documents."""
+
+[Wiki.Item.Valuables]
+description = """
+Items representing wealth or status. Includes Currency (Coinage), Black Market Coins, Cult-Circulated Items."""
+
+[Wiki.Item.Text]
+description = """Written non-magical materials containing information."""
+
+[Wiki.Item.Material]
+description = """Raw materials for crafting or trade."""
+
+[Wiki.Item.Material.Remain]
+description = """Organic remnants from creatures."""
+
+[Wiki.Item.Material.Mineral]
+description = """Inorganic materials from the earth."""
+
+[Wiki.Item.Material.Botanical]
+description = """Materials derived from plants."""
+
+[Wiki.Item.Miscellaneous]
+description = """
+Objects that serve auxiliary functions without clear combat or survival purpose, \
+often repurposed from their original intent due to resource scarcity."""
+
+[Wiki.Item.Miscellaneous.Container]
+description = """Objects designed to hold other items."""
+
+[Wiki.Item.Miscellaneous.Trap]
+description = """Pre-made devices designed to harm."""
+
+[Wiki.Item.Miscellaneous.Corpse]
+description = """Remains of dead creatures."""
+
+[Wiki.Item.Miscellaneous.Decoration]
+description = """Objects primarily for aesthetic purposes."""
+
+[Wiki.Item.Miscellaneous.Other]
+description = """Uncategorized utilitarian objects."""

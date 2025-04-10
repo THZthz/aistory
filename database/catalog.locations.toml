@@ -1,0 +1,49 @@
+
+[Catalog.Locations.FenmireDuchies]
+type = "duchy"
+name = "The Fenmire Duchies"
+path = "FenmireDuchies"
+description = """
+A patchwork of decaying noble territories, where mist-choked bogs swallow roads and petty lords wage endless, spiteful feuds. \
+The land itself seems to rot—crops wither, villages sink into the mire, and the few standing keeps are riddled with crow-infested cracks. \
+Governance is an illusion; survival is a gamble.
+"""
+
+[Catalog.Locations.Gallowrest]
+type = "city"
+name = "Gallowsrest"
+path = "FenmireDuchies.Gallowrest"
+description = """
+A half-drowned city of blackened timber and crumbling stone, built atop the bones of hanged rebels. \
+Its streets stink of fish-gut stew and wet despair. \
+The gallows at its heart are never empty, and the crows here grow fat on betrayal."""
+
+[Catalog.Locations.Gallowrest_WestDocks]
+type = "district"
+name = "West Docks"
+path = "FenmireDuchies.Gallowrest.Gallowrest_WestDocks"
+description = """
+A sagging maze of wharves and smuggler’s dens, where the pilings groan under the weight of stolen goods. \
+Fog clings to the crooked alleyways, and the taverns here serve ale cut with swamp water. \
+Only the desperate or the wicked linger after dark—often, they’re the same."""
+
+[Catalog.Locations.HollowLanten]
+type = "tavern"
+name = "The Hollow Lantern"
+path = "FenmireDuchies.Gallowrest.Gallowrest_WestDocks.HollowLanten"
+description = """
+A leaning, three-story timber hive of vice and whispered secrets, lit by a rusted copper lantern that flickers like a dying man’s breath. \
+The Hollow Lantern is where smugglers fence drowned cargo, mercenaries sell their silence, and the desperate trade in curses disguised as favors. \
+The air reeks of sour ale, wet rot, and the iron tang of old blood scrubbed from the floorboards. \
+Rumors cling to its walls: of a lost elven cult meeting in the attic, of a cellar that digests corpses, of a blind bard who sings truths no one wants to hear. \
+The tavern’s only rule? **Mind the crows**—they listen."""
+
+[Catalog.Locations.HollowLanten_GroundFloor]
+type = "other"
+name = "The Hollow Lantern's ground floor"
+path = "FenmireDuchies.Gallowrest.Gallowrest_WestDocks.HollowLanten.HollowLanten_GroundFloor"
+description = """
+The heart of the Lantern’s chaos: a cramped hall of splintered tables and stools with uneven legs. \
+Drunks and cutthroat gamblers cluster beneath smoke-stained rafters, while the barkeep—a hulking mute—pounds prices by hammering his counter with a chipped tankard. \
+A backroom curtain hides dice games with lethal stakes, and the infamous *Crow’s Table* (its surface carved with fading elven runes) sits in the darkest corner—reserved for those who trade in more than coin. \
+Beneath the floor, a *Muteness Stone* buried in the mortar hums faintly, stealing words from the unwary."""

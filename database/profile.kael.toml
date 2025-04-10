@@ -1,0 +1,92 @@
+[Profile.Kael]
+name = "Kael the Hollow-Eyed"
+short_name = "Kael"
+gender = "Male"
+age = 20
+race = "Human (or so he assumes—his features are unremarkable, but his eyes hold an unsettling depth)"
+
+appearance = """
+Kael is a lean, pale youth with a mess of dark, unruly hair that always looks slightly windswept, even indoors. \
+His eyes are a dull, foggy gray—like tarnished silver—and seem to stare *through* people rather than at them. \
+He wears a tattered, oversized coat that might have once been fine, now patched with mismatched fabric. \
+Around his neck, on a frayed cord, hangs a small, intricately carved candy box, its wood dark with age. \
+He doesn't remember where it came from."""
+
+hobbies = [
+    "Fidgeting with the latch of his candy box (though he rarely opens it)",
+    "Watching animals from a distance, as if expecting them to speak",
+    "Collecting odd pebbles and bits of string, as though they might mean something",
+    "Humming tunelessly when nervous"
+]
+
+ideals = [
+    "\"I don't know what I am, but I won't be nothing.\" – Kael clings to the box as the only proof he *exists*.",
+    "\"If I help others, maybe they'll help me remember.\" – A naive hope, but one he can't shake.",
+    "\"The candies are... important. I don't know why.\" – He feels their weight in his soul, even if his mind is blank."
+]
+
+personality = """
+Kael is quiet, but not shy—more like someone who's forgotten how to speak loudly. \
+He observes everything with a detached curiosity, as if the world is a play he's only half-watching. \
+There's a strange innocence to him, despite the eerie aura of the box. \
+He doesn't laugh often, but when he does, it's sudden and bright, like sunlight through storm clouds."""
+
+occupation = """
+A driftwalker—a term for those who roam without purpose or past. \
+He takes odd jobs (errand boy, grave watcher, scarecrow for hire) but never stays long. \
+Some say he's cursed. Others whisper he's a ghost who doesn't know he's dead."""
+
+residence = """
+Nowhere. Everywhere. He sleeps in haylofts, abandoned shrines, and sometimes just under the open sky. \
+Recently, he's been lingering near Briarhollow, a village where the people are just superstitious enough \
+to fear him but not enough to drive him out."""
+
+final_notes = """
+Kael doesn't remember if he stole the box, was given it, or was made for it. \
+But when he finally opens it—really opens it—the world will shudder. \
+Until then, he's just a boy with a sweet tooth and a hollow where his past should be."""
+
+equipped_items = [
+    "Items.TatteredCowl",
+    "Items.DriftersCoat",
+    "Items.GreyLinenshirt",
+    "Items.StrawBoundLeggings",
+    "Items.ThinWornBreeches",
+    "Items.CloutedBoots",
+    "Items.SackclothGloves",
+]
+
+intimate_items = [
+    "Items.CarvenSweetBox",
+    "Items.ClaspKnife",
+    "Items.CrookdStaff",
+    "Items.BlackRyeCake",
+    "Items.BrackenWaterskin",
+    "Items.SlickWornPennies",
+    "Items.WitchBead",
+    "Items.BlankLeafBook",
+    "Items.FadedBalladScrap",
+    "Items.MarshMoss",
+    "Items.BloodRustStone",
+    "Items.RagDoll",
+    "Items.BirdBoneWhistle",
+]
+
+location = "Locations.Gallowrest_WestDocks"
+
+status = "going to {Locations.HollowLanten_GroundFloor}"
+
+[Profile.Kael.SupplementaryDetails.TheCandyBox]
+description = """
+- Bound by Blood (or Something Deeper): The box cannot be taken—those who try suffer \
+(headaches, rotting fingers, or worse). Kael doesn’t understand why people flinch when they touch it.
+- Six Candies, Six Elements:
+  - Green (Earth): Can call roots to entangle or stones to rise.
+  - Red (Fire): Summons embers that dance like living things.
+  - Blue (Water): Pulls moisture from air or blood.
+  - Gray (Air): Whispers become gusts; breaths become gales.
+  - Purple (Spirit): Lets him see the dead (or they see him).
+  - Colorless (Void): Makes shadows cling too long. Swallows sound.
+- Rules He Doesn’t Know:
+  - Eating a new candy weakens the last. Eating the same one deepens its power.
+  - The box refills only when someone shows him real kindness—no strings attached."""

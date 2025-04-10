@@ -1,0 +1,330 @@
+[Catalog.Items.RaggedPouch]
+name = "Ragged Pouch"
+description = """
+A little ragged pouch that can barely store anything."""
+class = "Item.Miscellaneous.Container"
+quality = "Qualities.Common"
+
+# -------------------------------------------------------------------------------
+
+[Catalog.Items.RavenfeatherBroadbrim]
+name = "Ravenfeather Broadbrim"
+description = """
+A worn yet elegant black broad-brimmed hat adorned with raven feathers at its edge. \
+Stitched inside the brim lieth a stolen silver coin, for bribes or ale in dire need."""
+class = "Item.Equipment.HeadGear.Hats"
+quality = "Qualities.Uncommon"
+
+[Catalog.Items.ShadowstitchDoublet]
+name = "Shadowstitch Doublet"
+description = """A deep indigo doublet, tight-fitted, with dark embroidery upon its face. \
+Hidden pockets line the inner cloth, holding stolen rings and vials of venom."""
+class = "Item.Equipment.TorsoGear.MidLayers"
+quality = "Qualities.Rare"
+
+[Catalog.Items.ThiefsCloak]
+name = "Thief's Cloak"
+description = """A frayed but supple cloak of dusken grey, its hem marked with faint claw-scratches unseen. \
+Within its folds lie a blade thin as a cicada's wing and false coins to distract the unwary."""
+class = "Item.Equipment.TorsoGear.OuterWear"
+quality = "Qualities.Uncommon"
+
+[Catalog.Items.MutedLeatherBreeches]
+name = "Muted Leather Breeches"
+description = """Soft-tanned deerhide trousers, reinforced at the knees for climbing and creeping. \
+A secret pouch on the right leg hides a set of loaded dice ('lest the game play unfair')."""
+class = "Item.Equipment.LegWear.OuterLayers"
+quality = "Qualities.Uncommon"
+
+[Catalog.Items.CatstepSoftboots]
+name = "Catstep Softboots"
+description = """Soles lined with moss for silence, though they must be changed lest they reek. \
+A slender lockpick (or toothpick, at need) is tucked inside the boot's embrace."""
+class = "Item.Equipment.FootWear.Special"
+quality = "Qualities.Rare"
+
+[Catalog.Items.GamblersGloves]
+name = "Gambler's Gloves"
+description = "Gloves of black lambskin, worn at the fingertips for nimble theft and cardplay."
+class = "Item.Equipment.HandGear.Utility"
+quality = "Qualities.Common"
+
+[Catalog.Items.ChainOfTheHushed]
+name = "Chain of the Hushed"
+description = "A silver chain bearing a hollow raven's skull, wherein lies a poison to still the tongue."
+class = "Item.Equipment.Accessories"
+quality = "Qualities.Rare"
+
+[Catalog.Items.RingOfFalsehoods]
+name = "Ring of Falsehoods"
+description = """
+A brass ring etched with the elven adage 'Truthful hearts do wither,' \
+though in truth 'twas looted from a dead swindler."""
+class = "Item.Equipment.Accessories"
+quality = "Qualities.Uncommon"
+
+[Catalog.Items.WidowsKiss]
+name = "Widow's Kiss"
+description = """
+A slender rapier with a hilt set with a dim amethyst (whispered to have belonged to \
+a noblewoman who poisoned her lord). The sheath is lined with a numbing venom."""
+class = "Item.Equipment.Weapon.OneHanded"
+quality = "Qualities.Rare"
+
+[Catalog.Items.ShadowfangDaggers]
+name = "Shadowfang Daggers"
+description = """
+A pair of obsidian daggers with finely serrated edges for slit throats or ancient locks. \
+The hollow hilts hide needles dipped in venom ('for guests who lack manners')."""
+class = "Item.Equipment.Weapon.DualWield"
+quality = "Qualities.Rare"
+
+[Catalog.Items.RavenspeakBrew]
+name = "Ravenspeak Brew"
+description = """
+A foul liquor brewed from raven's blood, wormwood, and mushrooms plucked by moonlight. \
+It grants the speech of birds—but brings a throbbing head and dreams of feathers on the morrow."""
+class = "Item.Consumable.Potion"
+quality = "Qualities.Uncommon"
+
+[Catalog.Items.MemoryfadeAsh]
+name = "Memoryfade Ash"
+description = """
+A parchment of fading runes; its burnt ashes, mixed in drink, \
+steal the last hour's memories (though half-elves resist its grip)."""
+class = "Item.Consumable.Scroll"
+quality = "Qualities.Rare"
+
+[Catalog.Items.ElfToothDice]
+name = "Elf-Tooth Dice"
+description = "Dice carved from ancient elf-teeth, weighted with lead, yet so fair-wrought none suspect their trickery."
+class = "Item.Valuables"
+quality = "Qualities.Rare"
+
+[Catalog.Items.MutenessStone]
+name = "Muteness Stone"
+description = "A pebble from the Soundless Deep; it drinks all noise when clutched (oft used at gambling's crucial hour)."
+class = "Item.Valuables"
+quality = "Qualities.Uncommon"
+
+[Catalog.Items.BalladsOfTheDead]
+name = "Ballads of the Dead"
+description = "A tattered journal of last words and curses from dying folk, sometimes used for blackmail."
+class = "Item.Text"
+quality = "Qualities.Common"
+
+[Catalog.Items.ScorchedMap]
+name = "Scorched Map"
+description = "An ancient map with burnt edges, marking a 'slumbering arcane ruin' (yet found she it not)."
+class = "Item.Text"
+quality = "Qualities.Uncommon"
+
+[Catalog.Items.OldbloodInk]
+name = "Oldblood Ink"
+description = "Ink of dried magical beast's blood and soot; its writing reveals hidden words under the full moon."
+class = "Item.Material.Remain"
+quality = "Qualities.Rare"
+
+[Catalog.Items.HushmossPowder]
+name = "Hushmoss Powder"
+description = "Dried abyssal moss, which when burned emits a scentless smoke to steal voices (used to cheat at dice)."
+class = "Item.Material.Botanical"
+quality = "Qualities.Rare"
+
+[Catalog.Items.RavenquillPen]
+name = "Ravenquill Pen"
+description = "A quill of raven's feather, dipped in Oldblood Ink; contracts writ with it are said to 'haunt the signer.'"
+class = "Item.Miscellaneous.Other"
+quality = "Qualities.Uncommon"
+
+# -------------------------------------------------------------------------------
+
+[Catalog.Items.TatteredCowl]
+name = "Tattered Cowl"
+description = """A threadbare hood of coarse-spun wool, frayed at the edges and bleached by sun and rain. \
+A long rent mars the brim—perhaps from a blade, perhaps from thorns. He does not recall."""
+class = "Item.Equipment.HeadGear.Coverings"
+quality = "Qualities.Common"
+
+[Catalog.Items.DriftersCoat]
+name = "Drifter's Coat"
+description = "A patched and faded dun-colored greatcoat, too large for his frame, scavenged from a corpse or a charity pile. The lining is stitched with dried grass and a rusted pin, for makeshift mending."
+class = "Item.Equipment.TorsoGear.OuterWear"
+quality = "Qualities.Common"
+
+[Catalog.Items.GreyLinenshirt]
+name = "Grey Linenshirt"
+description = "A thin, washed-out shirt of rough-spun flax, collar and cuffs worn to translucence."
+class = "Item.Equipment.TorsoGear.UnderGarments"
+quality = "Qualities.Common"
+
+[Catalog.Items.StrawBoundLeggings]
+name = "Straw-Bound Leggings"
+description = "Rag strips and hemp cord lashed tight to keep out briars and bog-mire."
+class = "Item.Equipment.LegWear.Utility"
+quality = "Qualities.Common"
+
+[Catalog.Items.ThinWornBreeches]
+name = "Thin-Worn Breeches"
+description = "Mottled grey trousers, threadbare at the knees, with river-smoothed pebbles clinking in the right pocket."
+class = "Item.Equipment.LegWear.OuterLayers"
+quality = "Qualities.Common"
+
+[Catalog.Items.CloutedBoots]
+name = "Clouted Boots"
+description = "Cracked leather soles, stitched anew with twine and wooden scraps. They creak with every step."
+class = "Item.Equipment.FootWear.Basic"
+quality = "Qualities.Common"
+
+[Catalog.Items.SackclothGloves]
+name = "Sackcloth Gloves"
+description = "Rag-fingered mitts, good for bramble-work or frostbite, but little else."
+class = "Item.Equipment.HandGear.Protective"
+quality = "Qualities.Common"
+
+[Catalog.Items.CarvenSweetBox]
+name = "The Carven Sweet-Box"
+description = """
+An aged wooden casket hung about his neck on a thong of dried sinew. Its lid is scored with half-eroded sigils.
+Within: Six strange sweets (green, red, blue, grey, purple, and one colorless) with fleeting effects.
+Rules he half-knows: A new sweet undoes the last; the box refills only when shown true kindness.
+None can take it from him—attempts leave hands aching and heads swimming."""
+class = "Item.Equipment.Accessories"
+quality = "Qualities.Legendary"
+
+[Catalog.Items.ClaspKnife]
+name = "Clasp-Knife"
+description = "A rusted folder, its grip wrapped in greasy rags. It pares roots and picks locks, but barely draws blood."
+class = "Item.Equipment.Weapon.OneHanded"
+quality = "Qualities.Common"
+
+[Catalog.Items.CrookdStaff]
+name = "Crook'd Staff"
+description = "A gnarled oak pole, its crown-knot shaped like a shut eye. Shadows seem to shy from it—but only seem."
+class = "Item.Equipment.Weapon.TwoHanded"
+quality = "Qualities.Uncommon"
+
+[Catalog.Items.BlackRyeCake]
+name = "Black Rye Cake"
+description = "A brick-hard loaf, fit more for hammering nails than eating, save when soaked in ditch-water."
+class = "Item.Consumable.Provision"
+quality = "Qualities.Common"
+
+[Catalog.Items.BrackenWaterskin]
+name = "Bracken-Waterskin"
+description = "A stitched goatskin, its contents ever tasting of iron and old leaves."
+class = "Item.Consumable.Provision"
+quality = "Qualities.Common"
+
+[Catalog.Items.SlickWornPennies]
+name = "Slick-Worn Pennies"
+description = "Thin copper discs, their stamps rubbed featureless by time and trade."
+class = "Item.Valuables"
+quality = "Qualities.Common"
+
+[Catalog.Items.WitchBead]
+name = "Witch-Bead"
+description = "A murky glass bauble, perhaps a child's toy, yet he guards it like a secret."
+class = "Item.Valuables"
+quality = "Qualities.Uncommon"
+
+[Catalog.Items.BlankLeafBook]
+name = "Blank-Leaf Book"
+description = "A palm-sized folio of coarse parchment, its pages smudged where he's tried—and failed—to keep memory in ink."
+class = "Item.Text"
+quality = "Qualities.Common"
+
+[Catalog.Items.FadedBalladScrap]
+name = "Faded Ballad-Scrap"
+description = "A torn slip of vellum, bearing a half-remembered verse. Humming it brings a tightness to his throat."
+class = "Item.Text"
+quality = "Qualities.Uncommon"
+
+[Catalog.Items.MarshMoss]
+name = "Marsh-Moss"
+description = "Clumps of peat-dried herb, bundled in cloth. Said to stanch bleeding—though it rarely does."
+class = "Item.Material.Botanical"
+quality = "Qualities.Common"
+
+[Catalog.Items.BloodRustStone]
+name = "Blood-Rust Stone"
+description = "A palm-sized rock streaked crimson, as if dipped in old slaughter. It stains his hands when clutched too long."
+class = "Item.Material.Mineral"
+quality = "Qualities.Uncommon"
+
+[Catalog.Items.RagDoll]
+name = "Rag-Doll"
+description = "A thumb-sized poppet of stained linen, tucked inside his coat. Its face is rubbed blank."
+class = "Item.Miscellaneous.Other"
+quality = "Qualities.Common"
+
+[Catalog.Items.BirdBoneWhistle]
+name = "Bird-Bone Whistle"
+description = "A hollowed shin-whistle, its shriek fit only for scaring crows."
+class = "Item.Miscellaneous.Other"
+quality = "Qualities.Common"
+
+# -------------------------------------------------------------------------------
+
+[Catalog.Items.FrayedGoldRobe]  
+name = "Frayed Gold Robe"  
+description = "A threadbare vestment of faded gold, its hem frayed from centuries of brushing against stone."  
+class = "Item.Equipment.TorsoGear.OuterWear"  
+quality = "Qualities.Uncommon"  
+
+[Catalog.Items.BellTowerCloak]  
+name = "Bell-Tower Cloak"  
+description = "Worn velvet, dyed the color of dusk. It smells of old incense and carries the weight of unanswered prayers."  
+class = "Item.Equipment.TorsoGear.OuterWear"  
+quality = "Qualities.Uncommon"  
+
+[Catalog.Items.SanctuarySickle]  
+name = "Sanctuary Sickle"  
+description = "A curved blade, tarnished but sharp, for cutting back the ivy that strangles the sanctuary's bones. Its handle is wrapped in hymn-scrawled parchment."  
+class = "Item.Equipment.Weapon.OneHanded"  
+quality = "Qualities.IronWood"  
+
+[Catalog.Items.PebblePouch]  
+name = "Pebble Pouch"  
+description = "A small leather bag, filled with river-smoothed stones. Each bears a faded rune—names of pilgrims long gone."  
+class = "Item.Miscellaneous.Other"
+quality = "Qualities.IronWood"
+
+[Catalog.Items.InkStainedHandwraps]  
+name = "Ink-Stained Handwraps"  
+description = "Linen strips, dyed black from scribbling hymns on skin. The edges are frayed, but the knots hold."  
+class = "Item.Equipment.HandGear.Protective"  
+quality = "Qualities.IronWood"  
+
+[Catalog.Items.BrokenHymnal]  
+name = "Broken Hymnal"  
+description = "A crumbling book, its pages brittle as dried leaves. Half the verses are missing—the rest are written in the margins, between lines, over old ink."  
+class = "Item.Text"  
+quality = "Qualities.Uncommon"  
+
+[Catalog.Items.LastCandle]  
+name = "Last Candle"  
+description = "A tallow stub, never lit. It sits on the altar, waiting for a reason to burn."  
+class = "Item.Miscellaneous.Other"  
+quality = "Qualities.IronWood"  
+
+[Catalog.Items.BindingCord]  
+name = "Binding Cord"  
+description = "A length of braided rope, dark with use. The fibers hum faintly when touched, as if remembering the shape of wrists."  
+class = "Item.Miscellaneous.Other"  
+quality = "Qualities.GoldLeaf"  
+
+[Catalog.Items.MistwoodRootTea]  
+name = "Mistwood Root Tea"  
+description = "Bitter, earthy, and faintly numbing. Brewed from the roots that creep through the sanctuary’s foundations."  
+class = "Item.Consumable.Provision"  
+quality = "Qualities.IronWood"  
+
+[Catalog.Items.CrowFeatherQuill]  
+name = "Crow-Feather Quill"  
+description = "A black quill, gifted (or stolen) from one of the sanctuary’s silent listeners. It writes even when the ink runs dry."  
+class = "Item.Miscellaneous.Other"  
+quality = "Qualities.Uncommon"  
+
+
+# -------------------------------------------------------------------------------
