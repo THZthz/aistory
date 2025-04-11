@@ -10,9 +10,15 @@ from aistory.server.deepseek import DeepSeek
 
 app = Flask(__name__)
 app.logger.setLevel(logging.DEBUG)
-CORS(app)
+CORS(app) # Middle-wares.
 
 deepseek = DeepSeek()
+
+
+@app.teardown_appcontext
+def close_database_connection(exception=None) -> None:
+    app.logger.debug('Closing database connection')
+    deepseek.save()
 
 
 @app.route('/')
