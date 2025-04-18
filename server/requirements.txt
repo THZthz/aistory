@@ -1,0 +1,21 @@
+typing-inspect==0.9.0
+typing-inspection==0.4.0
+typing_extensions==4.13.0
+dataclasses-json==0.6.7
+
+setuptools==78.1.0
+
+requests==2.32.3
+Flask==3.1.0
+flask-cors==5.0.1
+psycopg2==2.9.10
+modelscope==1.24.1
+torch @ file:///C:/Users/Amias/Downloads/torch-2.6.0%2Bcu126-cp313-cp313-win_amd64.whl#sha256=a1ce724eb9813fcd05b99cb8b652b2d02f447caba65f1469abd7d50af5e5323f
+
+langchain==0.3.23
+langchain-community==0.3.21
+langchain-core==0.3.52
+langchain-text-splitters==0.3.8
+langsmith==0.3.31
+unstructured==0.17.2
+python-magic-bin==0.4.14

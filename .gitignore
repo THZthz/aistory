@@ -1,6 +1,11 @@
-website/node_modules
-aistory/aistory.egg-info/
-.venv
-.idea
-.git
-models/**
+.venv/**
+.idea/
+.git/
+aistory/__pycache__/
+models/iic_gte_multilingual/**
+trash/**
+app/cpp/.idea/
+app/cpp/build/**
+app/cpp/bin/**
+app_rust/target/
+app/website/node_modules/
